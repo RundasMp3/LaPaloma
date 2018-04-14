@@ -1,0 +1,5 @@
+Animaciones por frames:
+
+Iniciando conversacion / gritando al inicio: 1 - 48
+Hablando continuamente: 49 - 80 (loop)
+Regresar a la normalidad: 80 - 95
