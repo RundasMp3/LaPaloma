@@ -37,6 +37,8 @@ public class FlyingMovement : MonoBehaviour {
         if (controller.isGrounded)
         {
             verticalVelocity = 8f;
+            flyingSpeed = 16f;
+            numsalto = 4;
             fly.enabled = false;
             ground.enabled = true;
         }
@@ -138,9 +140,13 @@ public class FlyingMovement : MonoBehaviour {
     {
         RaycastHit hit;
         Ray vuelo = new Ray(transform.position, Vector3.down);
+        Debug.DrawRay(transform.position, Vector3.down * 10);
 
         if (Physics.Raycast(vuelo, out hit, 10) && Input.GetMouseButton(0))
         {
+            verticalVelocity = 8f;
+            flyingSpeed = 16f;
+            numsalto = 4;
             fly.enabled = false;
             ground.enabled = true;
         }

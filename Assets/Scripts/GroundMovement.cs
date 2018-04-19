@@ -8,7 +8,7 @@ public class GroundMovement : MonoBehaviour {
     private FlyingMovement fly;
     private CharacterController controller;
 
-    private float verticalVelocity, currYRot;
+    public float verticalVelocity, currYRot;
 
     public float gravity = 9.81f, jumpForce = 6.0f, playerSpeed = 5.0f, rotateSpeed = 4.0f;
     private int numsalto = 0;
@@ -41,6 +41,14 @@ public class GroundMovement : MonoBehaviour {
             currYRot = transform.eulerAngles.y;
             transform.rotation = Quaternion.RotateTowards(transform.rotation, Quaternion.Euler(0, currYRot, 0), 2f);
         }
+        /*if(transform.position.y >= 20 && canFly && !controller.isGrounded)
+        {
+            yanosaltespls = true;
+            numsalto = 0;
+            flyingSpeed = 0f;
+            ground.enabled = false;
+            fly.enabled = true;
+        }*/
 
         //TIPO DE SALTO
         if (canFly)
@@ -122,7 +130,8 @@ public class GroundMovement : MonoBehaviour {
         //"GRAVEDAD"
         if (flyingSpeed < 8)
         {
-            verticalVelocity -= gravity * Time.deltaTime;
+            if(!controller.isGrounded)
+                verticalVelocity -= gravity * Time.deltaTime;
             moveVector.y = verticalVelocity;
             controller.Move(moveVector * Time.deltaTime);
         }
