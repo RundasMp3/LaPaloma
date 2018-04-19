@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// DEPRECATED, won't be used unless it's truly needed.
+/// A container class for a character's info to be used in a dialogue.
+/// </summary>
 [System.Serializable]
 public class Character {
 

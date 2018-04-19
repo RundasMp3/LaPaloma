@@ -435,19 +435,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    sentences:
-    - text: Hello, my name is Steve
-      characterExpression: {fileID: 21300000, guid: 497026a854d42424685702dd607da634,
-        type: 3}
-      characterName: Steve
-    - text: I have no idea of what I'm doing....
-      characterExpression: {fileID: 21300000, guid: 75fd01f79e954c24eacabdea8b474b0b,
-        type: 3}
-      characterName: Steve
-    - text: Is this thing on?
-      characterExpression: {fileID: 21300000, guid: b4035d8358cc19747a70b8706c782cbf,
-        type: 3}
-      characterName: Still Steve
+    sentences: []
 --- !u!23 &649013650
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -622,7 +610,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Steveeeeee
+  m_Text: Name
 --- !u!222 &794877305
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -833,7 +821,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Hello, my name is Steve... '
+  m_Text: Sentence
 --- !u!222 &1237278282
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -894,7 +882,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: b4035d8358cc19747a70b8706c782cbf, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
