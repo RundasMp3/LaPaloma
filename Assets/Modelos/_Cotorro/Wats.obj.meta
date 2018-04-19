@@ -1,18 +1,18 @@
 fileFormatVersion: 2
-guid: 9c11209cbc374694b828960abeb4f550
-timeCreated: 1523826993
+guid: b98844c004428ec4391aa453c82c0036
+timeCreated: 1524118455
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: pCube12
+    100000: polySurface4_group5_group4
     100002: //RootNode
-    400000: pCube12
+    400000: polySurface4_group5_group4
     400002: //RootNode
-    2100000: pCube12Mat
-    2300000: pCube12
-    3300000: pCube12
-    4300000: pCube12
+    2100000: blinn1SG
+    2300000: polySurface4_group5_group4
+    3300000: polySurface4_group5_group4
+    4300000: polySurface4_group5_group4
   externalObjects: {}
   materials:
     importMaterials: 1

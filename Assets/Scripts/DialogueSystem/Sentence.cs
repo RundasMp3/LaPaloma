@@ -28,12 +28,12 @@ public class Sentence {
     /// <summary>
     /// The Character that is saying this sentence.
     /// </summary>
-    //public Character speaker;
+    public Character speaker;
 
     /// <summary>
     /// If true, the dialogue box will shake a bit.
     /// </summary>
-    bool isYelled = false;
+    public bool isYelled = false;
 }
 
 

@@ -1,18 +1,18 @@
 fileFormatVersion: 2
-guid: 059e17c76bdf0ed44a03e096b9f04614
-timeCreated: 1523827104
+guid: 016c7180065919a41b0c50a4d2f15342
+timeCreated: 1524118454
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: initialShadingGroup_polySurface2
-    100002: //RootNode
-    400000: initialShadingGroup_polySurface2
-    400002: //RootNode
-    2100000: initialShadingGroup_polySurface2Mat
-    2300000: initialShadingGroup_polySurface2
-    3300000: initialShadingGroup_polySurface2
-    4300000: initialShadingGroup_polySurface2
+    100000: //RootNode
+    100002: pTorus19
+    400000: //RootNode
+    400002: pTorus19
+    2100000: initialShadingGroup
+    2300000: pTorus19
+    3300000: pTorus19
+    4300000: pTorus19
   externalObjects: {}
   materials:
     importMaterials: 1

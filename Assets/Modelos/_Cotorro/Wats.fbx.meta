@@ -1,36 +1,93 @@
 fileFormatVersion: 2
-guid: f7f5a7cfe2d0bb647b31151c0bb3f04e
-timeCreated: 1523826995
+guid: bb1fcca12d86acf408f3fa64a7e309e0
+timeCreated: 1524118455
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: //RootNode
-    100002: Diamond_Disc_polySurface1
-    100004: pCube4
-    100006: pPipe1
-    100008: pPyramid2
-    400000: //RootNode
-    400002: Diamond_Disc_polySurface1
-    400004: pCube4
-    400006: pPipe1
-    400008: pPyramid2
-    2100000: Diamond_Disc_polySurface1Mat
-    2100002: pCube4Mat
-    2100004: pPipe1Mat
-    2100006: pPyramid2Mat
-    2300000: Diamond_Disc_polySurface1
-    2300002: pCube4
-    2300004: pPipe1
-    2300006: pPyramid2
-    3300000: Diamond_Disc_polySurface1
-    3300002: pCube4
-    3300004: pPipe1
-    3300006: pPyramid2
-    4300000: Diamond_Disc_polySurface1
-    4300002: pCube4
-    4300004: pPipe1
-    4300006: pPyramid2
+    100000: group1
+    100002: group3
+    100004: group4
+    100006: group5
+    100008: joint1
+    100010: joint10
+    100012: joint15
+    100014: joint16
+    100016: joint17
+    100018: joint18
+    100020: joint18 1
+    100022: joint19
+    100024: joint20
+    100026: joint21
+    100028: joint22
+    100030: joint23
+    100032: joint24
+    100034: joint25
+    100036: joint26
+    100038: joint27
+    100040: joint28
+    100042: joint29
+    100044: joint30
+    100046: joint31
+    100048: joint32
+    100050: joint33
+    100052: joint34
+    100054: joint36
+    100056: joint37
+    100058: joint4
+    100060: joint40
+    100062: joint5
+    100064: joint6
+    100066: joint7
+    100068: joint8
+    100070: joint9
+    100072: polySurface1
+    100074: polySurface4
+    100076: //RootNode
+    400000: group1
+    400002: group3
+    400004: group4
+    400006: group5
+    400008: joint1
+    400010: joint10
+    400012: joint15
+    400014: joint16
+    400016: joint17
+    400018: joint18
+    400020: joint18 1
+    400022: joint19
+    400024: joint20
+    400026: joint21
+    400028: joint22
+    400030: joint23
+    400032: joint24
+    400034: joint25
+    400036: joint26
+    400038: joint27
+    400040: joint28
+    400042: joint29
+    400044: joint30
+    400046: joint31
+    400048: joint32
+    400050: joint33
+    400052: joint34
+    400054: joint36
+    400056: joint37
+    400058: joint4
+    400060: joint40
+    400062: joint5
+    400064: joint6
+    400066: joint7
+    400068: joint8
+    400070: joint9
+    400072: polySurface1
+    400074: polySurface4
+    400076: //RootNode
+    2100000: blinn1
+    4300000: polySurface4
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: polySurface4
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -105,7 +162,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
