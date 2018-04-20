@@ -10,9 +10,9 @@ public class GroundMovement : MonoBehaviour {
 
     public float verticalVelocity, currYRot;
 
-    public float gravity = 9.81f, jumpForce = 6.0f, playerSpeed = 5.0f, rotateSpeed = 4.0f;
+    private float gravity = 9.81f, jumpForce = 6.0f, playerSpeed = 5.0f, rotateSpeed = 4.0f;
     private int numsalto = 0;
-    public float flyingSpeed = 0f;
+    private float flyingSpeed = 0f;
     private bool canFly = true, yanosaltespls = false;
 
 
@@ -25,7 +25,7 @@ public class GroundMovement : MonoBehaviour {
         Cursor.lockState = CursorLockMode.Locked;
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         Vector3 moveVector = Vector3.zero;
 
@@ -141,8 +141,8 @@ public class GroundMovement : MonoBehaviour {
             moveVector.y = verticalVelocity;
             controller.Move(moveVector * Time.deltaTime);
         }
+        Debug.DrawRay(transform.position, Vector3.down * 20, Color.black);
     }
-
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Inside"))
