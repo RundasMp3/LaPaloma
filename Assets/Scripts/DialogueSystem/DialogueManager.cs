@@ -5,6 +5,9 @@ using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour {
 
+    private GameObject player;
+    private GroundMovement ground;
+
     public Text nameText;
     public Text dialogueText;
     public Image characterImage;
@@ -16,11 +19,16 @@ public class DialogueManager : MonoBehaviour {
     // Use this for initialization
     void Start()
     {
+        player = GameObject.FindGameObjectWithTag("Player");
+        ground = player.GetComponent<GroundMovement>();
+
         sentences = new Queue<Sentence>();
     }
 
     public void StartDialogue(Dialogue dialogue)
     {
+
+        ground.enabled = false;
         Debug.Log("Starting dialogue!");
 
         animator.SetBool("IsOpen", true);
@@ -68,6 +76,7 @@ public class DialogueManager : MonoBehaviour {
         Debug.Log("Ending dialogue!");
 
         animator.SetBool("IsOpen", false);
+        ground.enabled = true;
     }
 
     void Update()

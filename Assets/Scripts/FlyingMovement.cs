@@ -11,10 +11,10 @@ public class FlyingMovement : MonoBehaviour {
 
     private float verticalVelocity = 8f;
 
-    public float flyingSpeed = 16f, maxSpeed = 36f, reduccionDeVelocidad = 0.05f;
+    private float flyingSpeed = 16f, maxSpeed = 60f, reduccionDeVelocidad = 0.05f;
 
-    public float gravity = 9.81f, rotateSpeed = 2.0f;
-    public int numsalto = 4;
+    private float gravity = 9.81f, rotateSpeed = 2.0f;
+    private int numsalto = 4, maxSalto = 15;
 
     // Use this for initialization
     void Start () {
@@ -27,7 +27,7 @@ public class FlyingMovement : MonoBehaviour {
     }
 	
 	// Update is called once per frame
-	void Update () {
+	void FixedUpdate () {
         Vector3 moveVector = Vector3.zero;
 
         Vector3 posY = transform.position;
@@ -46,7 +46,7 @@ public class FlyingMovement : MonoBehaviour {
         transform.position += transform.forward * Time.deltaTime * flyingSpeed;
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            if (flyingSpeed < maxSpeed && numsalto < 9)
+            if (flyingSpeed < maxSpeed && numsalto < maxSalto)
             {
                 flyingSpeed += 4f;
                 numsalto++;
@@ -106,6 +106,21 @@ public class FlyingMovement : MonoBehaviour {
             controller.Move(moveVector * Time.deltaTime);
         }
 
+    /*}
+    private void FixedUpdate()
+    {*/
+        RaycastHit hit;
+        Ray vuelo = new Ray(transform.position, Vector3.down);
+        Debug.DrawRay(transform.position, Vector3.down * 20, Color.black);
+
+        if (Physics.Raycast(vuelo, out hit, 10) && Input.GetMouseButton(0))
+        {
+            verticalVelocity = 8f;
+            flyingSpeed = 16f;
+            numsalto = 4;
+            fly.enabled = false;
+            ground.enabled = true;
+        }
     }
 
     private Vector3 angleMaxerX(float min, float max, Vector3 angle)
@@ -135,20 +150,5 @@ public class FlyingMovement : MonoBehaviour {
         if (angle.z < 0) angle.z += 360;
 
         return angle;
-    }
-    private void FixedUpdate()
-    {
-        RaycastHit hit;
-        Ray vuelo = new Ray(transform.position, Vector3.down);
-        Debug.DrawRay(transform.position, Vector3.down * 10);
-
-        if (Physics.Raycast(vuelo, out hit, 10) && Input.GetMouseButton(0))
-        {
-            verticalVelocity = 8f;
-            flyingSpeed = 16f;
-            numsalto = 4;
-            fly.enabled = false;
-            ground.enabled = true;
-        }
     }
 }
