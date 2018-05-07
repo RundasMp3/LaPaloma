@@ -1,7 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 4909bbeb1f388fa4f941893311832a22
 folderAsset: yes
 timeCreated: 1525554728
+=======
+guid: 74edbb5597e2b484ba1efb597b78ed8f
+folderAsset: yes
+timeCreated: 1524725705
+>>>>>>> Mendez
 licenseType: Free
 DefaultImporter:
   externalObjects: {}
