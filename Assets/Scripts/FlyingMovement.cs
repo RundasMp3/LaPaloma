@@ -31,7 +31,7 @@ public class FlyingMovement : MonoBehaviour {
         Vector3 moveVector = Vector3.zero;
 
         Vector3 posY = transform.position;
-        posY.y = Mathf.Clamp(transform.position.y, 0, 100);
+        posY.y = Mathf.Clamp(transform.position.y, 0, 300);
         transform.position = posY;
 
         if (controller.isGrounded)
