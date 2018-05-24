@@ -5,6 +5,7 @@ using UnityEngine;
 public class Minimap : MonoBehaviour {
 
     public Transform player;
+    public float heigth = 20;
 
 	void LateUpdate()
     {

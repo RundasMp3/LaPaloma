@@ -1,8 +1,0 @@
-Animación 
-Hablando - Frames 1-66
-Feliz - Frames 67-132
-Parado - Frames 133-203
-
-*******
-Tube problemas en aplicarle la textura a Wats 
-pero cuando lo resuelva lo suvo.
