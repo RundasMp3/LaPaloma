@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: e180264d4bad4ae4abba8c3f82d4ffed
-timeCreated: 1527025640
+guid: b38182f712db2b74cb08ed0ef9f6de8c
+timeCreated: 1527165113
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
@@ -19,66 +19,74 @@ ModelImporter:
     100022: pCube1769
     100024: pCube1774
     100026: pCube1775
-    100028: pCube1776
-    100030: pCube1777
-    100032: pCube1778
-    100034: pCube1779
-    100036: pCube1780
-    100038: pCube1781
-    100040: pCube1783
-    100042: pCube1784
-    100044: pCube1786
-    100046: pCube1787
-    100048: pCube1788
-    100050: pCube1789
-    100052: pCube1790
-    100054: pCube1790 1
-    100056: pCube1791
-    100058: pCube1792
-    100060: pCube1793
-    100062: pCube1794
-    100064: pCube1795
-    100066: pCube1796
-    100068: pCube1797
-    100070: pCube1798
-    100072: pCube1799
-    100074: pCube1800
-    100076: pCube1801
-    100078: pCube1802
-    100080: pCube1803
-    100082: pCube1833
-    100084: pCube1834
-    100086: pCube1835
-    100088: pCube1836
-    100090: pCube1837
-    100092: pCube2006
-    100094: pCube2007
-    100096: pCylinder221
-    100098: pCylinder235
-    100100: pCylinder236
-    100102: pCylinder237
-    100104: polySurface39
-    100106: polySurface40
-    100108: polySurface41
-    100110: polySurface88
-    100112: pPlane49
-    100114: transform582
-    100116: transform583
-    100118: transform584
-    100120: transform585
-    100122: transform586
-    100124: transform587
-    100126: transform588
-    100128: transform589
-    100130: transform590
-    100132: transform591
-    100134: transform592
-    100136: transform593
-    100138: typeMesh10
-    100140: typeMesh6
-    100142: typeMesh7
-    100144: typeMesh8
-    100146: typeMesh9
+    100028: pCube1775 1
+    100030: pCube1776
+    100032: pCube1783
+    100034: pCube1784
+    100036: pCube1786
+    100038: pCube1787
+    100040: pCube1788
+    100042: pCube1789
+    100044: pCube1790
+    100046: pCube1790 1
+    100048: pCube1791
+    100050: pCube1792
+    100052: pCube1793
+    100054: pCube1794
+    100056: pCube1795
+    100058: pCube1796
+    100060: pCube1797
+    100062: pCube1798
+    100064: pCube1799
+    100066: pCube1800
+    100068: pCube1801
+    100070: pCube1802
+    100072: pCube1803
+    100074: pCube1833
+    100076: pCube1834
+    100078: pCube1835
+    100080: pCube1836
+    100082: pCube1837
+    100084: pCube2006
+    100086: pCube2007
+    100088: pCube2055
+    100090: pCube2056
+    100092: pCube2057
+    100094: pCube2058
+    100096: pCube2059
+    100098: pCube2060
+    100100: pCube2061
+    100102: pCylinder221
+    100104: pCylinder235
+    100106: pCylinder236
+    100108: pCylinder237
+    100110: polySurface135
+    100112: polySurface39
+    100114: polySurface40
+    100116: polySurface41
+    100118: polySurface88
+    100120: pPlane49
+    100122: transform582
+    100124: transform583
+    100126: transform584
+    100128: transform585
+    100130: transform586
+    100132: transform587
+    100134: transform588
+    100136: transform589
+    100138: transform590
+    100140: transform591
+    100142: transform592
+    100144: transform593
+    100146: transform651
+    100148: transform652
+    100150: transform653
+    100152: transform654
+    100154: typeMesh10
+    100156: typeMesh6
+    100158: typeMesh7
+    100160: typeMesh8
+    100162: typeMesh9
     400000: botebasura1:polySurface1
     400002: curve5
     400004: curve6
@@ -93,103 +101,117 @@ ModelImporter:
     400022: pCube1769
     400024: pCube1774
     400026: pCube1775
-    400028: pCube1776
-    400030: pCube1777
-    400032: pCube1778
-    400034: pCube1779
-    400036: pCube1780
-    400038: pCube1781
-    400040: pCube1783
-    400042: pCube1784
-    400044: pCube1786
-    400046: pCube1787
-    400048: pCube1788
-    400050: pCube1789
-    400052: pCube1790
-    400054: pCube1790 1
-    400056: pCube1791
-    400058: pCube1792
-    400060: pCube1793
-    400062: pCube1794
-    400064: pCube1795
-    400066: pCube1796
-    400068: pCube1797
-    400070: pCube1798
-    400072: pCube1799
-    400074: pCube1800
-    400076: pCube1801
-    400078: pCube1802
-    400080: pCube1803
-    400082: pCube1833
-    400084: pCube1834
-    400086: pCube1835
-    400088: pCube1836
-    400090: pCube1837
-    400092: pCube2006
-    400094: pCube2007
-    400096: pCylinder221
-    400098: pCylinder235
-    400100: pCylinder236
-    400102: pCylinder237
-    400104: polySurface39
-    400106: polySurface40
-    400108: polySurface41
-    400110: polySurface88
-    400112: pPlane49
-    400114: transform582
-    400116: transform583
-    400118: transform584
-    400120: transform585
-    400122: transform586
-    400124: transform587
-    400126: transform588
-    400128: transform589
-    400130: transform590
-    400132: transform591
-    400134: transform592
-    400136: transform593
-    400138: typeMesh10
-    400140: typeMesh6
-    400142: typeMesh7
-    400144: typeMesh8
-    400146: typeMesh9
+    400028: pCube1775 1
+    400030: pCube1776
+    400032: pCube1783
+    400034: pCube1784
+    400036: pCube1786
+    400038: pCube1787
+    400040: pCube1788
+    400042: pCube1789
+    400044: pCube1790
+    400046: pCube1790 1
+    400048: pCube1791
+    400050: pCube1792
+    400052: pCube1793
+    400054: pCube1794
+    400056: pCube1795
+    400058: pCube1796
+    400060: pCube1797
+    400062: pCube1798
+    400064: pCube1799
+    400066: pCube1800
+    400068: pCube1801
+    400070: pCube1802
+    400072: pCube1803
+    400074: pCube1833
+    400076: pCube1834
+    400078: pCube1835
+    400080: pCube1836
+    400082: pCube1837
+    400084: pCube2006
+    400086: pCube2007
+    400088: pCube2055
+    400090: pCube2056
+    400092: pCube2057
+    400094: pCube2058
+    400096: pCube2059
+    400098: pCube2060
+    400100: pCube2061
+    400102: pCylinder221
+    400104: pCylinder235
+    400106: pCylinder236
+    400108: pCylinder237
+    400110: polySurface135
+    400112: polySurface39
+    400114: polySurface40
+    400116: polySurface41
+    400118: polySurface88
+    400120: pPlane49
+    400122: transform582
+    400124: transform583
+    400126: transform584
+    400128: transform585
+    400130: transform586
+    400132: transform587
+    400134: transform588
+    400136: transform589
+    400138: transform590
+    400140: transform591
+    400142: transform592
+    400144: transform593
+    400146: transform651
+    400148: transform652
+    400150: transform653
+    400152: transform654
+    400154: typeMesh10
+    400156: typeMesh6
+    400158: typeMesh7
+    400160: typeMesh8
+    400162: typeMesh9
     2100000: lambert1
     2100002: typeBlinn3
     2100004: typeBlinn4
     2100006: lambert20
+    2100008: arbusto
+    2100010: cafe
+    2100012: carro_4
+    2100014: carro_3
+    2100016: carro_2
+    2100018: lambert19
     2300000: botebasura1:polySurface1
     2300002: Mesa_y_sillas:polySurface1
     2300004: pCube1768
     2300006: pCube1769
-    2300008: pCube1774
-    2300010: pCube1775
-    2300012: pCube1776
-    2300014: pCube1777
-    2300016: pCube1778
-    2300018: pCube1779
-    2300020: pCube1780
-    2300022: pCube1781
-    2300024: pCube1786
-    2300026: pCube1787
-    2300028: pCube1788
-    2300030: pCube1789
-    2300032: pCube1795
-    2300034: pCube1796
-    2300036: pCube1799
-    2300038: pCube1800
-    2300040: pCube1801
-    2300042: pCube1803
-    2300044: pCube1833
-    2300046: pCube1834
-    2300048: pCube1835
-    2300050: pCube1836
-    2300052: pCube1837
-    2300054: pCube2006
-    2300056: pCube2007
-    2300058: pCylinder221
-    2300060: pCylinder235
-    2300062: pCylinder236
-    2300064: pCylinder237
+    2300008: pCube1775
+    2300010: pCube1786
+    2300012: pCube1787
+    2300014: pCube1788
+    2300016: pCube1789
+    2300018: pCube1795
+    2300020: pCube1796
+    2300022: pCube1799
+    2300024: pCube1800
+    2300026: pCube1801
+    2300028: pCube1803
+    2300030: pCube1833
+    2300032: pCube1834
+    2300034: pCube1835
+    2300036: pCube1836
+    2300038: pCube1837
+    2300040: pCube2006
+    2300042: pCube2007
+    2300044: pCube2055
+    2300046: pCube2056
+    2300048: pCube2057
+    2300050: pCube2058
+    2300052: pCube2059
+    2300054: pCube2060
+    2300056: pCube2061
+    2300058: pCylinder235
+    2300060: pCylinder236
+    2300062: pCylinder237
+    2300064: polySurface135
     2300066: polySurface39
     2300068: polySurface40
     2300070: polySurface41
@@ -204,35 +226,35 @@ ModelImporter:
     3300002: Mesa_y_sillas:polySurface1
     3300004: pCube1768
     3300006: pCube1769
-    3300008: pCube1774
-    3300010: pCube1775
-    3300012: pCube1776
-    3300014: pCube1777
-    3300016: pCube1778
-    3300018: pCube1779
-    3300020: pCube1780
-    3300022: pCube1781
-    3300024: pCube1786
-    3300026: pCube1787
-    3300028: pCube1788
-    3300030: pCube1789
-    3300032: pCube1795
-    3300034: pCube1796
-    3300036: pCube1799
-    3300038: pCube1800
-    3300040: pCube1801
-    3300042: pCube1803
-    3300044: pCube1833
-    3300046: pCube1834
-    3300048: pCube1835
-    3300050: pCube1836
-    3300052: pCube1837
-    3300054: pCube2006
-    3300056: pCube2007
-    3300058: pCylinder221
-    3300060: pCylinder235
-    3300062: pCylinder236
-    3300064: pCylinder237
+    3300008: pCube1775
+    3300010: pCube1786
+    3300012: pCube1787
+    3300014: pCube1788
+    3300016: pCube1789
+    3300018: pCube1795
+    3300020: pCube1796
+    3300022: pCube1799
+    3300024: pCube1800
+    3300026: pCube1801
+    3300028: pCube1803
+    3300030: pCube1833
+    3300032: pCube1834
+    3300034: pCube1835
+    3300036: pCube1836
+    3300038: pCube1837
+    3300040: pCube2006
+    3300042: pCube2007
+    3300044: pCube2055
+    3300046: pCube2056
+    3300048: pCube2057
+    3300050: pCube2058
+    3300052: pCube2059
+    3300054: pCube2060
+    3300056: pCube2061
+    3300058: pCylinder235
+    3300060: pCylinder236
+    3300062: pCylinder237
+    3300064: polySurface135
     3300066: polySurface39
     3300068: polySurface40
     3300070: polySurface41
@@ -245,47 +267,47 @@ ModelImporter:
     3300084: typeMesh9
     4300000: pCube1769
     4300002: typeMesh6
-    4300004: pCube1774
-    4300006: pCube1775
-    4300008: typeMesh7
-    4300010: typeMesh8
-    4300012: pCylinder221
-    4300014: pCube1776
-    4300016: pCube1786
-    4300018: pCube1777
-    4300020: pCube1778
-    4300022: pCube1779
-    4300024: pCube1780
-    4300026: pCube1781
-    4300028: typeMesh9
-    4300030: pCube1787
-    4300032: pCube1788
-    4300034: pCube1789
-    4300036: pCube1795
-    4300038: pCube1796
-    4300040: pCube1799
-    4300042: pCube1800
-    4300044: pCube1801
-    4300046: pCube1768
-    4300048: pCube1803
-    4300050: pCube1833
-    4300052: pCube1834
-    4300054: typeMesh10
-    4300056: pCylinder235
-    4300058: pCube1835
-    4300060: pCube1836
-    4300062: pCylinder236
-    4300064: pCube1837
-    4300066: pCylinder237
-    4300068: botebasura1:polySurface1
-    4300070: polySurface39
-    4300072: polySurface40
-    4300074: polySurface41
-    4300076: pCube2006
-    4300078: pCube2007
-    4300080: Mesa_y_sillas:polySurface1
-    4300082: pPlane49
-    4300084: polySurface88
+    4300004: typeMesh7
+    4300006: typeMesh8
+    4300008: pCube1786
+    4300010: typeMesh9
+    4300012: pCube1787
+    4300014: pCube1788
+    4300016: pCube1789
+    4300018: pCube1795
+    4300020: pCube1796
+    4300022: pCube1799
+    4300024: pCube1800
+    4300026: pCube1801
+    4300028: pCube1768
+    4300030: pCube1803
+    4300032: pCube1833
+    4300034: pCube1834
+    4300036: typeMesh10
+    4300038: pCylinder235
+    4300040: pCube1835
+    4300042: pCube1836
+    4300044: pCylinder236
+    4300046: pCube1837
+    4300048: pCylinder237
+    4300050: botebasura1:polySurface1
+    4300052: polySurface39
+    4300054: polySurface40
+    4300056: polySurface41
+    4300058: pCube2006
+    4300060: pCube2007
+    4300062: Mesa_y_sillas:polySurface1
+    4300064: pPlane49
+    4300066: polySurface88
+    4300068: pCube2055
+    4300070: pCube2056
+    4300072: pCube2057
+    4300074: pCube2058
+    4300076: pCube2059
+    4300078: pCube2060
+    4300080: polySurface135
+    4300082: pCube2061
+    4300084: pCube1775
     9500000: //RootNode
   externalObjects: {}
   materials:
