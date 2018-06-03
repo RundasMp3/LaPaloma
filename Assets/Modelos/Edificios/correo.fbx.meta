@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 4dd2585264e0ff44cba8c2a41a2cb8fb
-timeCreated: 1526891107
+guid: 774fc08d23b77c84c885c3ca9bd4d514
+timeCreated: 1527828916
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
@@ -8,103 +8,148 @@ ModelImporter:
     100000: botebasura2:polySurface1
     100002: //RootNode
     100004: group73
-    100006: group74
-    100008: group75
-    100010: pCube1804
-    100012: pCube1805
-    100014: pCube1806
-    100016: pCube1807
-    100018: pCube1808
-    100020: pCube1809
-    100022: pCube1809 1
-    100024: pCube1810
-    100026: pCube1810 1
-    100028: pCube1811
-    100030: pCube1811 1
-    100032: pCube1838
-    100034: pCube1871
-    100036: pCylinder238
-    100038: pCylinder239
-    100040: polySurface1
-    100042: polySurface38
+    100006: pCube1804
+    100008: pCube1805
+    100010: pCube1806
+    100012: pCube1807
+    100014: pCube1808
+    100016: pCube1871
+    100018: pCube2016
+    100020: pCube2017
+    100022: pCube2018
+    100024: pCube2019
+    100026: pCube2020
+    100028: pCube2021
+    100030: pCube2022
+    100032: pCube2023
+    100034: pCube2068
+    100036: polySurface1
+    100038: polySurface243
+    100040: polySurface244
+    100042: polySurface245
+    100044: polySurface246
+    100046: polySurface247
+    100048: polySurface248
+    100050: polySurface249
+    100052: polySurface250
+    100054: polySurface38
     400000: botebasura2:polySurface1
     400002: //RootNode
     400004: group73
-    400006: group74
-    400008: group75
-    400010: pCube1804
-    400012: pCube1805
-    400014: pCube1806
-    400016: pCube1807
-    400018: pCube1808
-    400020: pCube1809
-    400022: pCube1809 1
-    400024: pCube1810
-    400026: pCube1810 1
-    400028: pCube1811
-    400030: pCube1811 1
-    400032: pCube1838
-    400034: pCube1871
-    400036: pCylinder238
-    400038: pCylinder239
-    400040: polySurface1
-    400042: polySurface38
+    400006: pCube1804
+    400008: pCube1805
+    400010: pCube1806
+    400012: pCube1807
+    400014: pCube1808
+    400016: pCube1871
+    400018: pCube2016
+    400020: pCube2017
+    400022: pCube2018
+    400024: pCube2019
+    400026: pCube2020
+    400028: pCube2021
+    400030: pCube2022
+    400032: pCube2023
+    400034: pCube2068
+    400036: polySurface1
+    400038: polySurface243
+    400040: polySurface244
+    400042: polySurface245
+    400044: polySurface246
+    400046: polySurface247
+    400048: polySurface248
+    400050: polySurface249
+    400052: polySurface250
+    400054: polySurface38
     2100000: lambert1
-    2100002: lambert9
+    2100002: cafe
+    2100004: lambert40
+    2100006: lambert39
+    2100008: carro_4
+    2100010: carro_7
+    2100012: carro_5
+    2100014: carro_6
+    2100016: carro_3
+    2100018: refri3
+    2100020: tope
     2300000: botebasura2:polySurface1
     2300002: pCube1804
     2300004: pCube1805
     2300006: pCube1806
     2300008: pCube1807
     2300010: pCube1808
-    2300012: pCube1809
-    2300014: pCube1809 1
-    2300016: pCube1810
-    2300018: pCube1810 1
-    2300020: pCube1811
-    2300022: pCube1811 1
-    2300024: pCube1838
-    2300026: pCube1871
-    2300028: pCylinder238
-    2300030: pCylinder239
+    2300012: pCube1871
+    2300014: pCube2016
+    2300016: pCube2017
+    2300018: pCube2018
+    2300020: pCube2019
+    2300022: pCube2020
+    2300024: pCube2021
+    2300026: pCube2022
+    2300028: pCube2023
+    2300030: pCube2068
     2300032: polySurface1
-    2300034: polySurface38
+    2300034: polySurface243
+    2300036: polySurface244
+    2300038: polySurface245
+    2300040: polySurface246
+    2300042: polySurface247
+    2300044: polySurface248
+    2300046: polySurface249
+    2300048: polySurface250
+    2300050: polySurface38
     3300000: botebasura2:polySurface1
     3300002: pCube1804
     3300004: pCube1805
     3300006: pCube1806
     3300008: pCube1807
     3300010: pCube1808
-    3300012: pCube1809
-    3300014: pCube1809 1
-    3300016: pCube1810
-    3300018: pCube1810 1
-    3300020: pCube1811
-    3300022: pCube1811 1
-    3300024: pCube1838
-    3300026: pCube1871
-    3300028: pCylinder238
-    3300030: pCylinder239
+    3300012: pCube1871
+    3300014: pCube2016
+    3300016: pCube2017
+    3300018: pCube2018
+    3300020: pCube2019
+    3300022: pCube2020
+    3300024: pCube2021
+    3300026: pCube2022
+    3300028: pCube2023
+    3300030: pCube2068
     3300032: polySurface1
-    3300034: polySurface38
+    3300034: polySurface243
+    3300036: polySurface244
+    3300038: polySurface245
+    3300040: polySurface246
+    3300042: polySurface247
+    3300044: polySurface248
+    3300046: polySurface249
+    3300048: polySurface250
+    3300050: polySurface38
     4300000: pCube1804
     4300002: pCube1805
     4300004: pCube1806
     4300006: pCube1807
     4300008: pCube1808
-    4300010: pCube1809
-    4300012: pCube1810
-    4300014: pCube1811
-    4300016: pCube1809
-    4300018: pCube1810
-    4300020: pCube1811
-    4300022: botebasura2:polySurface1
-    4300024: polySurface1
-    4300026: polySurface38
-    4300028: pCube1838
-    4300030: pCylinder238
-    4300032: pCylinder239
-    4300034: pCube1871
+    4300010: botebasura2:polySurface1
+    4300012: polySurface1
+    4300014: polySurface38
+    4300016: pCube1871
+    4300018: pCube2016
+    4300020: pCube2017
+    4300022: pCube2018
+    4300024: pCube2019
+    4300026: pCube2020
+    4300028: pCube2021
+    4300030: pCube2022
+    4300032: pCube2023
+    4300034: pCube2068
+    4300036: polySurface243
+    4300038: polySurface244
+    4300040: polySurface245
+    4300042: polySurface246
+    4300044: polySurface247
+    4300046: polySurface248
+    4300048: polySurface249
+    4300050: polySurface250
     9500000: //RootNode
   externalObjects: {}
   materials:
@@ -136,7 +181,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 2
+    globalScale: 1
     meshCompression: 0
     addColliders: 0
     importVisibility: 1

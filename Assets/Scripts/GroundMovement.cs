@@ -10,7 +10,7 @@ public class GroundMovement : MonoBehaviour {
 
     public float verticalVelocity, currYRot;
 
-    private float gravity = 9.81f, jumpForce = 6.0f, playerSpeed = 5.0f, rotateSpeed = 4.0f;
+    public float gravity = 9.81f, jumpForce = 6.0f, playerSpeed = 2.0f, rotateSpeed = 4.0f;
     private int numsalto = 0;
     private float flyingSpeed = 0f;
     private bool canFly = true, yanosaltespls = false;
