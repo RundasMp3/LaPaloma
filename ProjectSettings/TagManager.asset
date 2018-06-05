@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - Inside
+  - Node
+  - Recibe
+  - Avanza
+  - Intereccion
   layers:
   - Default
   - TransparentFX
